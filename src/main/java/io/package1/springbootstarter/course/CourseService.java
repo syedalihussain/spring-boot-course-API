@@ -14,12 +14,6 @@ public class CourseService {
 	@Autowired
 	private CourseRepository courseRepository;
 
-	private List<Course> courses = new ArrayList<>(Arrays.asList(
-			new Course("spring", "Spring Framework", "Spring Framework Description"),
-			new Course("java", "Core Java", "Core Java Description"),
-			new Course("javascript", "Javascript", "Javascript Description")
-			));
-
 	public List<Course> getAllCourses(String id) {
 		List<Course> courses = new ArrayList<>();
 		courseRepository.findAll()
@@ -35,19 +29,11 @@ public class CourseService {
 		courseRepository.save(course);
 	}
 
-	public void updateCourse(Course course, String id) {
-		/*for (int i = 0; i < courses.size(); i++) {
-			Course t = courses.get(i);
-			if (t.getId().equals(id)) {
-				courses.set(i, course);
-				return;
-			}
-		}*/
+	public void updateCourse(Course course) {
 		courseRepository.save(course);
 	}
 
 	public void deleteCourse(String id) {
-		//	courses.removeIf(t -> t.getId().equals(id));
 		courseRepository.deleteById(id);
 	}
 }

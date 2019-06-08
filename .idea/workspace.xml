@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0274cc2-32f0-4df2-bc1b-fb27a9478cc7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/package1/springbootstarter/course/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/package1/springbootstarter/course/CourseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/package1/springbootstarter/course/CourseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/package1/springbootstarter/course/CourseService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/package1/springbootstarter/topic/TopicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/package1/springbootstarter/topic/TopicService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/package1/springbootstarter/course/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/package1/springbootstarter/course/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/package1/springbootstarter/course/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/package1/springbootstarter/course/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/package1/springbootstarter/course/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/package1/springbootstarter/course/CourseService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,8 +21,14 @@
       <file leaf-file-name="Course.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/package1/springbootstarter/course/Course.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+            <state relative-caret-position="437">
+              <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+              <folding>
+                <element signature="e#836#837#0" expanded="true" />
+                <element signature="e#855#856#0" expanded="true" />
+                <element signature="e#893#894#0" expanded="true" />
+                <element signature="e#918#919#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -41,13 +45,17 @@
       <file leaf-file-name="CourseService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/package1/springbootstarter/course/CourseService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+            <state relative-caret-position="331">
+              <caret line="24" column="51" lean-forward="true" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
               <folding>
                 <element signature="e#816#817#0" expanded="true" />
                 <element signature="e#865#866#0" expanded="true" />
                 <element signature="e#975#976#0" expanded="true" />
                 <element signature="e#1011#1012#0" expanded="true" />
+                <element signature="e#997#998#0" expanded="true" />
+                <element signature="e#1033#1034#0" expanded="true" />
+                <element signature="e#1062#1063#0" expanded="true" />
+                <element signature="e#1100#1101#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -56,15 +64,13 @@
       <file leaf-file-name="CourseController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/package1/springbootstarter/course/CourseController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+            <state relative-caret-position="592">
+              <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
               <folding>
                 <element signature="e#350#351#0" expanded="true" />
                 <element signature="e#392#393#0" expanded="true" />
                 <element signature="e#476#477#0" expanded="true" />
                 <element signature="e#516#517#0" expanded="true" />
-                <element signature="e#632#633#0" expanded="true" />
-                <element signature="e#669#670#0" expanded="true" />
                 <element signature="e#984#985#0" expanded="true" />
                 <element signature="e#1020#1021#0" expanded="true" />
               </folding>
@@ -119,8 +125,9 @@
         <option value="$PROJECT_DIR$/src/main/java/topic/TopicRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/package1/springbootstarter/course/TopicRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/package1/springbootstarter/course/TopicController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/package1/springbootstarter/course/CourseService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/package1/springbootstarter/course/Course.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/package1/springbootstarter/course/CourseController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/package1/springbootstarter/course/CourseService.java" />
       </list>
     </option>
   </component>
@@ -323,8 +330,8 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.328877" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.184375" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.328877" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -654,22 +661,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/package1/springbootstarter/course/Course.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        <state relative-caret-position="437">
+          <caret line="26" column="48" selection-start-line="26" selection-start-column="48" selection-end-line="26" selection-end-column="48" />
+          <folding>
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#893#894#0" expanded="true" />
+            <element signature="e#918#919#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/package1/springbootstarter/course/CourseController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        <state relative-caret-position="592">
+          <caret line="39" column="28" lean-forward="true" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
           <folding>
             <element signature="e#350#351#0" expanded="true" />
             <element signature="e#392#393#0" expanded="true" />
             <element signature="e#476#477#0" expanded="true" />
             <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#669#670#0" expanded="true" />
             <element signature="e#984#985#0" expanded="true" />
             <element signature="e#1020#1021#0" expanded="true" />
           </folding>
@@ -678,13 +689,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/package1/springbootstarter/course/CourseService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+        <state relative-caret-position="331">
+          <caret line="24" column="51" lean-forward="true" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
           <folding>
             <element signature="e#816#817#0" expanded="true" />
             <element signature="e#865#866#0" expanded="true" />
             <element signature="e#975#976#0" expanded="true" />
             <element signature="e#1011#1012#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+            <element signature="e#1033#1034#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+            <element signature="e#1100#1101#0" expanded="true" />
           </folding>
         </state>
       </provider>
